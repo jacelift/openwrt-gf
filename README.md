@@ -10,6 +10,15 @@ https://api.github.com/repos/jacelift/openwrt_jacelift
   "svn_url": "https://github.com/jacelift/openwrt_jacelift"
 ```
 
+【changelog】
+
+2022.01.24
+=
+```
+1、默认开启无线网络
+set wireless.radio${devidx}.disabled=1 改为 set wireless.radio${devidx}.disabled=0
+```
+
 
 ![OpenWrt logo](include/logo.png)
 
